@@ -1,0 +1,59 @@
+.{
+   box-sizing: border-box;
+}
+
+body{
+    background-color: limegreen;
+}
+.todo-wrapper{
+    display: block;
+    background-color: whitesmoke;
+    padding: 0 50px;
+    border-radius: 20px;
+    width: 70%;
+}
+h1 {
+    padding-top: 20px;
+    margin-bottom: 0px;
+}
+p {
+    margin-top: 10px;
+    color: grey;
+
+}
+
+.zuerst {
+    display: flex;
+    align-items: center;
+    height: 20px;
+}
+
+#add-button, #clear-button {
+    background-color: lightseagreen;
+    margin-left: 10px;
+}
+
+.pretty-button {
+    border-radius: 15px;
+    border-style: none;
+    padding: 4px 15px;
+    color: whitesmoke;
+}
+
+.drei-buttons {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#empty-button {
+    background-color: darkred;
+}
+
+#save-button {
+    background-color: forestgreen;
+}
+
+.completed {
+    text-decoration: line-through;
+}
