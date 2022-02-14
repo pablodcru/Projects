@@ -1,0 +1,18 @@
+.{
+   box-sizing: border-box; 
+}
+
+.buttonWrapper {
+    display: block;
+    width: 70%;
+    border: 3px solid pink;
+}
+
+.colourButton{
+    padding: 35px;
+    background-color: red;
+    border-radius: 35px;
+    border-style: none;
+    justify-content: space-between;
+
+}
